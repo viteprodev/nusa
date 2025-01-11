@@ -1,0 +1,4 @@
+# Flame Of Valhalla Global Ports
+payload:
+  - DOMAIN-SUFFIX,shdlsg1.leniuhw.com
+  - DST-PORT,9035

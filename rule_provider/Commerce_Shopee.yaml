@@ -1,0 +1,19 @@
+payload:
+  # ShopeePay
+  - DOMAIN-KEYWORD,wallet.airpay
+  - DOMAIN-KEYWORD,gw.airpay
+  
+  # Shopee SPinjam dan SPayLater
+  - DOMAIN-KEYWORD,shopeekredit
+  - DOMAIN-KEYWORD,cdn.scredit
+  - DOMAIN-KEYWORD,sentry.paylater.scredit
+  - DOMAIN-KEYWORD,spl-h5.cmf.co.id
+
+  # Shopee login, logout and checkout
+  - DOMAIN-KEYWORD,api.shopee
+  - DOMAIN-KEYWORD,c-api-bit.shopeemobile
+  # - DOMAIN-KEYWORD,cf.shopee
+  - DOMAIN-KEYWORD,frd.shopee
+  
+  - DOMAIN-SUFFIX,shp.ee
+  - DOMAIN-SUFFIX,app.appsflyer.com
