@@ -1,0 +1,117 @@
+proxies:
+  - name: 5.lowh.net vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: d9c3c160-8710-11ef-afa8-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 5lowh.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 5lowh.diginusa.my.id
+    udp: true
+  - name: 2.htmlcdn.net vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 3fe10b00-a0a1-11ef-beb8-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2-htmlcdn.rimuru.my.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 2-htmlcdn.rimuru.my.id
+    udp: true
+  - name: 10.lowh.net HERZA vision
+    server: vision.diginusa.my.id
+    port: 443
+    type: vmess
+    uuid: e76770c0-b575-11ef-8a98-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 10lowh.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 10lowh.diginusa.my.id
+    udp: true
+  - name: 5.lowh.net|da vidio
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: 54c74a80-baab-11ef-a7e3-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5lowh.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 5lowh.diginusa.my.id
+    udp: true
+  - name: 🇮🇩 HSP-PREMIUM DIGINET vision
+    server: vision.diginusa.my.id
+    port: 443
+    type: trojan
+    password: 23cc6910-78e0-11ef-b823-1577c1651679
+    skip-cert-verify: true
+    sni: hsp2.htmlcdn.net
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: hsp2.htmlcdn.net
+    udp: true
+  - name: 11.lowh.net VIDIO
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: c0fd59d0-baaa-11ef-bc1d-1577c1651679
+    skip-cert-verify: true
+    sni: 11lowh.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: 11lowh.diginusa.my.id
+    udp: true
+  - name: 🇮🇩 Biznet_DigiNusa vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 175db900-7ddb-11ef-bd59-1577c1651679
+    skip-cert-verify: true
+    sni: biznet1.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: biznet1.diginusa.my.id
+    udp: true
+  - name: 1server.co vision
+    server: vision.diginusa.my.id
+    port: 443
+    type: trojan
+    password: 5f28d5c0-c113-11ef-9741-1577c1651679
+    skip-cert-verify: true
+    sni: 1server.diginusa.my.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: 1server.diginusa.my.id
+    udp: true
