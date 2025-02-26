@@ -1,2 +1,46 @@
 proxies:
-  
+  - name: 10.lowh.net
+    server: vision.diginusa.my.id
+    port: 443
+    type: vmess
+    uuid: 5fdb46a0-f466-11ef-abbf-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 10.lowh.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 10.lowh.net
+    udp: true
+  - name: hz2
+    server: vision.diginusa.my.id
+    port: 443
+    type: vmess
+    uuid: 2be48970-f467-11ef-9463-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hz2.cobadl.com
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: hz2.cobadl.com
+    udp: true
+  - name: hz1
+    server: vision.diginusa.my.id
+    port: 443
+    type: trojan
+    password: 8c935e80-f468-11ef-8a5c-1577c1651679
+    skip-cert-verify: true
+    sni: hz1.cobadl.com
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: hz1.cobadl.com
+    udp: true
