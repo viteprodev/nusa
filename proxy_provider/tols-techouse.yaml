@@ -1,0 +1,46 @@
+# Rule Provider for Common Services
+# Contains rules for GitHub, Cloudflare, Google (Gmail, Play Store, Meet), and Custom Domains
+
+payload:
+  # >> GitHub
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,gist.github.com
+  - DOMAIN-SUFFIX,avatars.githubusercontent.com
+  - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,codeload.github.com
+  - DOMAIN-SUFFIX,collector.github.com
+  - DOMAIN-SUFFIX,media.githubusercontent.com
+
+  # >> Cloudflare & Custom Domains
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare-ipfs.com
+  - DOMAIN,1.1.1.1 # Menggunakan DOMAIN karena ini adalah IP Address
+  
+  # Custom Domains added
+  - DOMAIN-SUFFIX,techouse.pages.dev
+  - DOMAIN-SUFFIX,angel.pages.dev
+  - DOMAIN-SUFFIX,1nusa.biz.id
+  
+  # >> Google Services (Gmail, Play Store, Meet)
+  # General Google Domains
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,ggpht.com
+  # Gmail
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,mail.google.com
+  # Google Play Store
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,android.clients.google.com
+  # Google Meet
+  - DOMAIN-SUFFIX,meet.google.com
+  - DOMAIN-KEYWORD,meet
