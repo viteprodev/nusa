@@ -1,6 +1,3 @@
-# Rule Provider for Common Services
-# Contains rules for GitHub, Cloudflare, Google (Gmail, Play Store, Meet), and Custom Domains
-
 payload:
   # >> GitHub
   - DOMAIN-SUFFIX,github.com
