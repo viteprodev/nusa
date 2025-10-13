@@ -1,1 +1,60 @@
+payload:
+  - DOMAIN-KEYWORD,klikbca
+  - DST-PORT,33303
 
+  ## Dana rules
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN,danaindonesia.app.link
+
+  - DOMAIN,events.split.io
+  - DOMAIN,sdk.split.io
+  - DOMAIN,auth.split.io
+  - DOMAIN,cdn.branch.io
+  - DOMAIN,streaming.split.io
+  - DOMAIN,api2.branch.io
+
+  - DOMAIN-SUFFIX,aliapp.org
+  
+  - DOMAIN-KEYWORD,-ac.alipay.com
+  - DOMAIN-KEYWORD,-sea.alipay.com
+  - DOMAIN-KEYWORD,gw-dana.ebuckler
+  - DOMAIN-KEYWORD,dana.threatcast
+
+  ##Jenius
+  - DOMAIN-KEYWORD,app.btpn
+  - DOMAIN-KEYWORD,jenius-assets.jenius
+  - DOMAIN-KEYWORD,api.btpn
+  - DOMAIN-KEYWORD,btpn.com
+  - DOMAIN-KEYWORD,jenius.com
+  ## Flip
+  - DOMAIN-KEYWORD,flip.id
+  - DOMAIN-KEYWORD,nexus-websocket-a.intercom.io
+  - DOMAIN-KEYWORD,mobile-sdk-api.intercom.io
+  - DOMAIN-SUFFIX,jualan.me
+  - DOMAIN-SUFFIX,bukaolshop.com
+  - DOMAIN-SUFFIX,bukaolshop.net
+
+  ## Tokopedia
+  - DOMAIN-KEYWORD,tokopedia.link
+  - DOMAIN-KEYWORD,tokopedia.com
+  - DOMAIN-KEYWORD,tokopedia.gw-dv
+
+    # ShopeePay
+  - DOMAIN-KEYWORD,wallet.airpay
+  - DOMAIN-KEYWORD,gw.airpay
+  
+  # Shopee SPinjam dan SPayLater
+  - DOMAIN-KEYWORD,shopeekredit
+  - DOMAIN-KEYWORD,cdn.scredit
+  - DOMAIN-KEYWORD,sentry.paylater.scredit
+  - DOMAIN-KEYWORD,spl-h5.cmf.co.id
+
+  # Shopee login, logout and checkout
+  - DOMAIN-KEYWORD,api.shopee
+  - DOMAIN-KEYWORD,c-api-bit.shopeemobile
+  # - DOMAIN-KEYWORD,cf.shopee
+  - DOMAIN-KEYWORD,frd.shopee
+  
+  - DOMAIN-SUFFIX,shp.ee
+  - DOMAIN-SUFFIX,app.appsflyer.com
+  
